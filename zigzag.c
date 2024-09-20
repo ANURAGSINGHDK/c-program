@@ -11,15 +11,15 @@ int main()
         {
             for(int k=1;k<=n;k++)
             {
-                if(i%2!=0 && j==k)
+                if( i%2!=0 &&(j==k) )
                 {
-                    printf("%d ",a);
-                    a++;
+                    printf("x ");
+                    
                 }
-                else if (i%2==0 && j+k==n+1)
+                else if ( i%2==0 && j+k == n+1)
                 {
-                    printf("%d ",a);
-                    a++;
+                    printf("x ");
+                    
                 }
                 else
                 {
